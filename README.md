@@ -5,13 +5,13 @@ This is a React project utilizing Bootstrap for some controls and styling and wh
 I implemented the following: 
 
     * Restock functionality including PUT commands to update the products back to pre-determined levels in the Strapi database
-    * Remove from cart functionality
+    * Remove from cart functionality (part of a prior assignment wihthin the same module)
     * Updated styling, background images, control colors, and control text
+    * Update item images to randomly apply an image from picsum (part of a prior assignment wihthin the same module)
 
 # Future Roadmap (long term)
 The restock functionality at present time simply obtains a list of products from the Strapi database and renders them appended to the existing product list. I really dislike this implementation but the starter files for some reason were provided with the product list at first predefined in a global variable and I did not have enough time to refactor the whole app. 
 
-# Future Roadmap (short term)
 I would like to implement the following: 
 
     1) Have the product list populated from a call to the Strapi database rather than via the constant that was provided in the starter files as a "simulated" load of the products. 

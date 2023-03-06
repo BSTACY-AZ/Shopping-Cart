@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+body {
+  height: 100%;
+  width: 100%;
+  background: #e9e9e9;
+  font-family: 'Shantell Sans', cursive;
+  color: #010b26;
+  background-image: url('background.jpg');
+  background-position: center;
+  background-size: 100%;
+
+  
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color:rgb(116, 0, 139);
+}
+
+h2 {
+  font-size: 30px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #6abcea;
+}
+
+.btn {
+    width: 300px;
+    background-color: purple;
+    border-style: ridge;
+    border-color: black;
+    
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.acitem {
+    text-align: center;
+}
+
+.acheader {
+    
+    text-align: center;
+}
+
+.accordion {
+    background-color: grey;
+    outline-style: groove;
+    color: white;
+    
+}
+
+.cartheader {
+    text-align: center;
+}
+
+
+input {
+    width: 250px;
+}
+
+.sitetitle {
+    font-size: xx-large;
+}
+
